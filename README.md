@@ -4,7 +4,7 @@ Sample code to demonstrate threading in C for the following use case.
 
 ## Logic
 
-# Problem 1
+### Problem 1
 
 1. I made separate threads for cars and attenders.
 2. If the number of cars is less than 7, it creates a thread and makes a call to enterStation. Else it waits for a signal that the queue is empty. Once the queue is empty, it calls waitInLine.
